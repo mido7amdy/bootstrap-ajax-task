@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My map</title>
+    <link rel='stylesheet' type='text/css' href='css/map.css' />
+    <script src='js/tomtom.min.js'></script>
+    <style>
+        #map {
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='map'></div>
+    <script>
+        var map = tomtom.L.map('map',
+            {
+                key: 'UVIUBzZ2SVKjFG1o6AmrQmZSvSNL7Juf',
+                basePath: 'sdk',
+                center: [37.769167, -122.478468],
+                zoom: 15
+            });
+
+        var trafficLayer = new tomtom.L.TomTomTrafficLayer();
+        map.addLayer(trafficLayer);
+        var trafficFlowLayer = new tomtom.L.TomTomTrafficFlowLayer();
+        map.addLayer(trafficFlowLayer);
+        var marker = tomtom.L.marker([37.769167, -122.478468]).addTo(map);
+        marker.bindPopup('my marker');
+    </script>
+</body>
+
+</html>

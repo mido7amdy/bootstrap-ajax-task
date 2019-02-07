@@ -1,0 +1,224 @@
+@font-face {
+    font-family: google-font;
+    src: url('/assets/google-font.otf');
+}
+.row{
+    width: 100% !important;
+}
+body{
+    font-family: google-font;
+}
+.container-fluid{
+    padding: 0;
+}
+.section-1{
+    background: url('/img/nurse.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+.section-1 .navbar{
+    padding-bottom: 0px; 
+    padding-top: 0px;
+    padding: 0 100px;
+    border-bottom: 1px solid #6B95E0;
+}
+.section-1 div button {
+    background-color: #F92146;
+    border:none;
+    padding: 13px 25px;  
+}
+.section-1 .nav-item {
+    padding: 0px 15px;
+}
+.section-1 .nav-item a {
+    color: #6B95E0;
+    padding: 30px;
+}
+.section-1 .jumbotron {
+    background: none;
+    color: White;
+}
+.section-1 .jumbotron h1 {
+    font-size: 60px;
+}
+.section-1 .jumbotron button ,
+.section-1 .jumbotron h1 
+{
+    margin: 30px 0;
+}
+.section-1 .section-1-block{
+    background-color: white;
+    color: #1A47B0;
+    width:250px;
+    margin:auto !important;
+    margin-top: 40px !important; 
+    padding: 25px;
+    border-radius: 10px;
+}
+.jumbotron{
+    margin: 0 !important;
+} 
+.white{
+    color: white;
+}
+.active {
+    border-bottom: 3px solid white;
+}
+.section-2{
+    background: url('/img/bg_blue.png') no-repeat fixed center;
+    background-size: cover;
+    padding: 20px;
+}
+.section-2 span{
+    color: #1A47B0
+}
+.section-2-2{
+    display: flex;
+    align-items: center;
+}
+.section-2-2 div {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 18px 28px 0 #E5E6E8;
+    transition: 0.3s;
+    padding: 10px;
+}
+.section-2-2 div:hover{
+    cursor: pointer;
+    box-shadow: 0 28px 38px 0 rgb(200, 205, 214);
+}
+.section-2-2 div h1 , .section-2-2 div h5 {
+    padding: 0px 20px !important;
+}
+.section-2 .social-edit {
+    color:#BFC4CE;
+    padding: 0px 5px ;
+}
+.section-2 .social-edit:hover {
+    color: #339AF0;
+}
+.section-3 {
+
+}
+.section-3 h1 {
+    color: #1A47B0;
+    padding: 30px 0;
+}
+.section-3 .fa-color {
+    color: #F92146;
+}
+.section-3 .media-body h4 {
+    color: #1A47B0;
+}
+.section-3 .center-edit {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.section-4 {
+    background: url('/img/bg-blue-2.png') no-repeat center;
+    background-size: cover;
+    border-bottom: 2px dashed #335779; 
+}
+.section-4-1 {
+    position: relative;
+    align-items: center;
+}
+.section-4-2 form div {
+    padding: 10px;
+}
+.section-4-2 {
+    margin: 30px 0;
+}
+#button-submit {
+    border-color: #F92146 !important;
+    color: #F92146;
+}
+#button-submit:hover{
+    background-color: #F92146;
+    color: white;
+}
+.section-5 {
+
+}
+.section-5 h1 {
+    color: #1A47B0;
+    padding: 30px 0;
+}
+.services-icon-edit {
+    color: #1A47B0;
+}
+.section-5 .row {
+    padding: 0 20px;
+}
+.section-5 .col-md-4 {
+    padding: 0 20px;
+}
+.section-5 .row i  ,
+.section-5 .row h5 {
+    padding: 20px 0 0 0;
+}
+.section-6 {
+    background-color: #F4F4F4;
+    padding: 5px 0 45px 0;
+}
+.section-6 h1 {
+    padding: 40px 0;
+    color: #1A47B0;
+}
+.section-6 .card .card-img-top {
+    padding: 20px;
+}
+.section-6 .card .card-footer {
+    background-color: white;
+}
+.section-6 .card .card-body h5 {
+    color: #1A47B0;
+}
+.section-6 .card .card-body p {
+    font-size: 14px;
+}
+.section-6 .card .card-body {
+    padding-top: 0;
+}
+.section-6 .card {
+    margin-bottom: 10px;
+    box-shadow: 0 18px 28px 0 rgb(212, 213, 216);
+}
+.section-6 .card:hover {
+    cursor: pointer;
+    box-shadow: 0 28px 38px 0 rgb(200, 205, 214);
+}
+.section-7 {
+
+}
+.section-7-2{
+    padding: 0 20px;
+}
+.section-7 .section-7-2 h1 {
+    color: #1A47B0;
+    padding-top: 20px;
+}
+.section-7-2 form {
+    padding: 10px 0;
+}
+.footer{
+    padding: 20px 0 0 0;
+    background-color: #1A47B0;
+    color: white;
+}
+#map {
+    width: 100%;
+}
+@media screen and (max-width:768px){
+    .section-4-1 {
+        margin: 40px 0 0 0;
+        color: white;
+    }
+    .section-1 .visible {
+        display: none;
+    }
+    #map {
+        display: block;
+        width: 100%;
+        height: 500px;
+    }
+}
