@@ -13,7 +13,7 @@ body{
     padding: 0;
 }
 .section-1{
-    background: url('/img/nurse.jpg') no-repeat fixed center;
+    background: url('../img/nurse.jpg') no-repeat fixed center;
     background-size: cover;
 }
 .section-1 .navbar{
@@ -65,7 +65,7 @@ body{
     border-bottom: 3px solid white;
 }
 .section-2{
-    background: url('/img/nurse.jpg') no-repeat fixed center;
+    background: url('../img/nurse.jpg') no-repeat fixed center;
     background-size: cover;
     padding: 20px;
 }
@@ -115,7 +115,7 @@ body{
     margin-right: auto !important;
 }
 .section-4 {
-    background: url('/img/nurse.jpg') no-repeat fixed center;
+    background: url('../img/nurse.jpg') no-repeat fixed center;
     background-size: cover;
     border-bottom: 2px dashed #335779; 
 }
